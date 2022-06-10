@@ -1,0 +1,54 @@
+    @media(max-width: 1235px) {
+    .bodyclass
+    {
+        height: auto;
+        text-align: center;
+    }
+    .para
+    {
+        padding-left: 40%;
+        padding-right: 20%;
+        
+    }
+    .slideimg{
+      position: static;
+      padding-bottom: 50%;
+      height: 100%;
+    }
+    .carousel-indicators
+    {
+        padding-bottom: 40%;
+        padding-left: 10%;
+        
+    }
+  }
+  @media (max-width: 992px) {
+    .itemnav
+    {
+        display: none;
+    }
+    .cardsec {
+        flex-wrap: wrap;
+    }
+    .pricing-column2
+    {
+        padding-top: 15%;
+    }
+    .pricing-column3
+    {
+        padding-top: 15%;
+    }
+    .para
+    {
+        padding-left: 40%;
+        padding-right: 20%;
+    }
+}
+.edit1{
+width: 20%; 
+float:left"
+}
+.edit2{
+width: 80%; 
+float:right
+}

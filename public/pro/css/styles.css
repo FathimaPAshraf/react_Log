@@ -1,0 +1,494 @@
+
+  .paraclass
+{
+    background-color:#c4d70f;
+    color:white;
+    
+    clip-path: polygon(0 0,100% 0,100% 70%,0 100%);
+    height: 610px;
+    width: 100%;
+    padding-bottom: 10%;
+}
+.menuimg
+{
+  width: 50px;
+  height: 40px;
+  padding-top: 35%;
+}
+
+  body {
+    font-family: "'Kanit', sans-serif";
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Franklin Gothic Medium',   sans-serif;
+  }
+  
+  #slidebtn{
+    display: inline-block;
+    padding: 8px 33px;
+    border: 2px solid white;
+    border-radius: 35px;
+  }
+  .navbar-brand {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+  }
+  .navbar-brand:hover{
+    color: white;
+  }
+  
+  .nav-item {
+    padding: 20px 18px;
+  }
+  
+  .nav-link {
+    
+    font-size: 1.1rem;
+    font-family: "'Kanit', sans-serif";
+    text-indent: 15px;
+    color: white;
+  }
+  .nav-link:hover
+  {
+    color: white;
+  }
+  
+  #carouselExampleSlidesOnly
+  { padding-left: 50px;
+    padding-top: 100px;
+  }
+  h1
+  {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-weight: 950em;
+    font-size: 2.0rem;
+  }
+ p
+ {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.0rem;
+ }
+  .soln
+  {
+    color: black;
+  }
+  .para
+  {
+    padding-top:40px;
+    text-align: justify;
+    padding-left: 160px;
+    padding-bottom: 100px;
+    padding-right: 60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+  }
+  body
+  {
+    width: 100%;
+  }
+  .slideimg {
+    width: 800px;
+    height: 490px;
+    padding-top: 2%;
+    bottom: 1px;
+    right: 10px;
+    position:absolute;
+   right: 1px;
+  
+  }
+  
+  .carousel-indicators li{
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    border-radius: 50%;
+    
+  }
+  .li-1
+  { 
+    position: relative;
+    top:70px;
+    background-image: url(pro/images/left-black-arrow.png/);
+  }
+ 
+  .li-2
+  {
+    background-image: url(/public/pro/images/right-black-arrow.png/);
+    position:relative;
+    top: 70px;
+  }
+  .li-1:hover
+  {
+   
+    background-color:black
+  }
+  .li-2:hover
+  {
+   
+    background-color: black;
+  }
+  .carousel-indicators .active {
+    font-size: 24px;
+    padding-left: 10px;
+  }
+.card-img
+{
+  width:110px;
+  height:104ox;
+  margin:40px auto;
+
+}
+.cardhead
+{
+  padding-left: 35%;
+  padding-top: 8%;
+}
+.cardpara
+{
+  padding-left: 7%;
+  padding-right: 6%;
+}
+.cardsec
+{
+  align-items: center;
+  padding-left: 7%;
+  padding-right: 6%;
+}
+.card-img img
+{
+  width: 100px;
+}
+.about-card
+{
+  margin: 45px 20px;
+  width: 30%;
+  min-width: 300px;
+  padding: 2px 25px 35px 25px;
+  height: 460px;
+  -webkit-box-shadow: -1px 0px 25px 9px rgba(0, 0, 0, 0.09);
+  -moz-box-shadow: -1px 0px 25px 9px rgba(0, 0, 0, 0.09);
+  box-shadow: -1px 0px 25px 9px rgba(0, 0, 0, 0.09);
+}
+.cardbtn 
+{
+  display: inline-block;
+  padding: 8px 25px;
+  border: 2px solid #c4d70f;
+  color: #c4d70f;
+  border-radius: 35px;
+  margin-top: 55px;
+}
+.cardbtn:hover
+{
+background-image:none !important;
+background-color:#c4d70f !important;
+border: 2px solid #c4d70f !important;
+}
+.about-btn3
+{
+  padding-top: 5%;
+}
+.about-btn2
+{
+  padding-top: 9%;
+}
+.about-btn1
+{
+  padding-top: 3%;
+}
+.portfolio-sec
+{
+  text-align: center;
+  padding-right: 6%;
+  padding-left: 1%;
+  
+}
+.portfolio
+{
+  padding-top: 18%;
+}
+.portfolio-sec p{
+  padding-left: 8%;
+}
+.portfolio-head
+{
+  padding-left: 44%;
+  padding-right: 30%;
+}
+.portfolio_img1
+{ 
+  padding-bottom: 7%;
+  padding-top: 5%;
+
+}
+.portfolio_img2
+{
+  padding-left: 10%;
+  padding-bottom: 7%;
+  padding-top: 10%;
+}
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+  height: 100%;
+  width: 0;
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0, 0.9); 
+  overflow-x: hidden; 
+  transition: 0.5s; 
+}
+
+
+.overlay-content {
+  position: relative;
+  top: 20%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 20px;
+  margin-bottom: 20%; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 15px;
+  right: 50px;
+  font-size: 50px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 10px}
+  .overlay .closebtn {
+    font-size: 30px;
+    top: 20px;
+    right: 25px;
+  }
+}
+
+.container{
+  text-align: center;
+  
+}
+.img2
+{
+  margin-top: 40px;
+  margin-left:600px;
+}
+.img3{
+margin-top: 40px;
+margin-left:600px ;
+}
+.imgdiv
+{
+  width: 40%;
+  height: 180px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.crd2
+{
+  width: 120px;
+  padding-top: 20px;
+}
+.btn1
+{
+  display: inline-block;
+    padding: 9px 35px;
+    border: 2px solid #fefeff;
+    color: #fefeff;
+    border-radius: 35px;
+}
+.btNn{
+  display: inline-block;
+    padding: 8px 25px;
+    border: 2px solid #c4d70f;
+    color: #c4d70f;
+    border-radius: 35px;
+    margin-top: 55px;
+    text-decoration: none;
+
+}
+#aln
+{
+  margin-left: 80px;
+  margin-right: 0px;
+}
+.divbtn{
+  padding-left: 30%;
+}
+.butn
+{
+  text-decoration: none;
+}
+.span2
+{
+  color: #c4d70f;
+  font-size: 1rem;padding-top:15px;
+  padding-bottom: 10px;
+}
+.hrclass
+{ 
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.type1 {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+#formimage
+{
+  padding-left: 10%;
+  width: 100%;
+
+}
+.type1 {
+  width: 80%;
+  padding: 12px 20px;
+
+}
+.butn2
+{
+  text-decoration: none;
+  border: none;
+    background-color: #a0e711;
+    color: #fff;
+    padding: 12px 45px;
+    font-size: 14px;
+    border-radius: 25px;
+    text-transform: uppercase;
+}
+.aboutcon {
+  margin-top: 250px;
+}
+.fin_section {
+  position: relative;
+}
+
+.fin_section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: -3px;
+  background-color: #191919;
+  clip-path: polygon(0 315px, 100% 0, 100% 100%, 0% 100%);
+}
+.fin_section ul {
+  padding: 0;
+}
+
+.fin_section ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.fin_section ul li a,
+.fin_section ul li a:hover {
+  color: #fff;
+}
+
+.fin_section h5 {
+  margin-bottom: 12px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.fin_section .social-box {
+  margin: 25px 0;
+
+box-sizing: border-box
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
